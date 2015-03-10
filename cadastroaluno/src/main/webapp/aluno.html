@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>cadastro aluno</title>
+</head>
+<body>
+
+<form action="alunocontroll" method="doPost">
+
+   <br>	<label> Nome: </label> <br>
+		<input type="text" name="nome">
+      <br>  <label> Cpf: </label> <br>
+		<input type="text" name="cpf"> 
+	  <br> <label> Rg: </label> <br>
+		<input type="text" name="rg" >
+        
+        <input type="radio" name="sexo" value "M">M
+        <input type="radio" name="sexo" value "F" >F
+        
+    <select name="uf" id="uf">
+	<option value="">Selecione</option>
+	<option value="MS">MS</option>
+	<option value="SP">SP</option>
+	<option value="TO">TO</option>
+	 </select>
+	 
+	 <input type="submit" value="salvar">
+
+</form>
+
+</body>
+</html>
