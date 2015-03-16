@@ -26,6 +26,8 @@
 	out.print(a.getSexo());
 	out.print("<br>");
 	out.print(a.getEstado());
+	out.print("<br>");
+	out.print("<br>");
    }
   
   %>
