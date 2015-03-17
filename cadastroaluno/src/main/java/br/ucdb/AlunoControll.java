@@ -54,6 +54,8 @@ public class AlunoControll extends HttpServlet {
 		
 		gc.salvar(aluno);
 		
+		response.setContentType("text/html");
+		response.getWriter().print("<script> window.alert('Salvo!') ");
 	}
 
 }
